@@ -14,7 +14,7 @@ const NearbyJobs = () => {
     query:'React Developer',
     num: 1
   })
-  console.log(data)
+  // console.log(data)
 
   return (
     <View style = {styles.container}>
@@ -37,7 +37,7 @@ const NearbyJobs = () => {
             <NearbyJobCard
             job={job}
             key={`neaby-job-${job?.job_id}`}
-            handleNavigateFunction={()=>router.push(`job-details/${job.job_id}`)}
+            handleNavigate={()=>router.push(`job-details/${job.job_id}`)}
             />
           ))
           
