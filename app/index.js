@@ -10,18 +10,16 @@ import {Nearbyjobs, Popularjobs,ScreenHeaderBtn,Welcome} from '../components'
 
 import {COLORS,icons,images,SIZES} from '../constants'
 
-console.log(COLORS)
-
 const Home = () => {
 
   const router = useRouter()
 
 
   return (
-    <SafeAreaView style={{flex:1, backgroundColor: COLORS.white}}>
+    <SafeAreaView style={{flex:1, backgroundColor: COLORS.lightWhite}}>
       <Stack.Screen
       options={{
-        headerStyle: {backgroundColor: COLORS.white},
+        headerStyle: {backgroundColor: COLORS.lightWhite},
         headerShadowVisible: false,
 
        headerTitle: '',
