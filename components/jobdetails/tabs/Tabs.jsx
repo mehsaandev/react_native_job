@@ -21,11 +21,17 @@ const Tabs = ({tabs,activeTab,setActiveTab}) => {
         name={item}
         activeTab={activeTab}
         onHandleSearchType={()=>setActiveTab(item)}
+        
+
+        
         />
       )}
+
       horizontal
       keyExtractor={item=>item}
       contentContainerStyle={{columnGap: SIZES.small / 2}}
+
+      showsHorizontalScrollIndicator={false}
       />
     </View>
   )

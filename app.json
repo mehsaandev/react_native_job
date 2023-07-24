@@ -5,6 +5,14 @@
       "bundler": "metro"
     },
     "name": "job_it",
-    "slug": "job_it"
+    "slug": "job_it",
+    "android": {
+      "package": "com.xebex.jobit"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9617f4f2-c233-46f6-87c8-eeea68a47ed9"
+      }
+    }
   }
 }
